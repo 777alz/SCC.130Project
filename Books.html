@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="Example2f.php" method="post">
+            <fieldset><legend>Enter your information in the form below:</legend>
+            <p><b>Name:</b> <input type="text" name="name" size="20" maxlength="40"
+            /></p>
+            <p><b>Interests:</b>
+            <input type="number" name="BookIDs[]" value="BookID" /> Book ID
+            <input type="text" name="Titles[]" value="BookTitle" /> Book Title
+            <input type="text" name="Authors[]" value="Author" /> Author
+            <input type="text" name="Genres[]" value="Genre" /> Genre
+            <input type="number" name="YearsPublished[]" value="YearPublished" /> Year Published
+            </p>
+            </fieldset>
+            <div align="left">
+            <input type="submit" name="submit" value="Submit Information" />
+            </div>
+        </form>
+    </body>
+</html>
